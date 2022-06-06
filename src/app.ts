@@ -151,7 +151,7 @@ class ProjectInput {
     this.attach();
   }
 
-  private gatherUserInput(): [string, string, number] | void {
+  private gatherUserInput(): [title: string, desc: string, people: number] | void {
     const enteredTitle = this.titleInputElement.value;
     const enteredDescription = this.descriptionInputElement.value;
     const enteredPeople = this.peopleInputElement.value;
